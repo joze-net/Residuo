@@ -4,6 +4,8 @@ table,caption{
 	padding: 5%;
 	background:  #239cc5 ;
     margin-top: 30px;
+    box-shadow: crimson 5px 5px 12px;/*para sombreado*/
+
 }
 table{
 	border-radius: 2% 2% 2% 2%;
@@ -26,6 +28,9 @@ label{
     margin-top: 5%;
     border-radius: 20% 20% 20% 20%;
 
+-webkit-transition-duration: 0.4s ;/*duracion de la transicion*/
+    /*-webkit-transition-timing-function: 0.9%;*/
+   /* -webkit-transition-delay:0.1s;*/
 }
 body{
 	background:  #231f5b ;
@@ -35,4 +40,9 @@ body{
 	padding: 2%;
 	margin: auto;
 	text-align: center;
+}
+
+#calcular:hover{/*cuando pase el ¡¡la flecha encima se ejecuta esto*/
+    -webkit-transform: scale(1.2);/*agranda la imagen*/
+    
 }
