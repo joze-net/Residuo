@@ -1,0 +1,21 @@
+table{
+	
+	margin: auto;
+	padding: 5%;
+	background:  #239cc5 ;
+
+}
+label{
+	color: black ;
+	font-family: sans-serif;
+}
+#calcular{
+	background:  #a44109 ;
+	width:120px;
+	height: 40px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+body{
+	background:  #231f5b ;
+}
