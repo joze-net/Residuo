@@ -31,7 +31,7 @@ function calcularResiduo(numeroAveriguar,numeroMod1,numeroMod2){
    }
    if(numeroAveriguar%numeroMod1!=0 && numeroAveriguar%numeroMod2!=0){
  
-      var texto=numeroAveriguar; 
+     var texto="el numero "+numeroAveriguar+" no es divisor de "+numeroMod1+" ni de "+numeroMod2;
       
       contenedor3.innerHTML=texto;
 
@@ -59,10 +59,7 @@ function inicio(){
 calcularResiduo(numeroAveriguar,numeroMod1,numeroMod2);//llamamos la funcion que realiza la operacion
 }
 
-function mostrarResultado(id,texto){
-	var contenedor=document.getElementById("resultado1");
-	contenedor.innerHTML="";
-}
+
 
 //funcion para agregar etiquetas p en el body NOTA::::no la estoy usando en este momento
 function crearp(text,contenedor){
